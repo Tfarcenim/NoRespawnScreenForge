@@ -1,4 +1,4 @@
-package tfar.norespawnscreen;
+package tfar.norespawndelay;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screen.DeathScreen;
@@ -9,13 +9,13 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.loading.FMLEnvironment;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(NoRespawnScreen.MODID)
-public class NoRespawnScreen {
+@Mod(NoRespawnDelay.MODID)
+public class NoRespawnDelay {
     // Directly reference a log4j logger.
 
-    public static final String MODID = "norespawnscreen";
+    public static final String MODID = "norespawndelay";
 
-    public NoRespawnScreen() {
+    public NoRespawnDelay() {
         //IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         // Register the doClientStuff method for modloading
         if (FMLEnvironment.dist.isClient()) {
